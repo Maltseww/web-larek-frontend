@@ -149,7 +149,7 @@ eventEmitter.on<{
 					isDisabled: items.length == 0,
 					price:
 						basketTotalPrice == 0
-							? ''
+							? 'Корзина пуста'
 							: formatPrice(basketTotalPrice, settings.CURRENCY_TITLES),
 					items: basketItemsViews,
 				},
